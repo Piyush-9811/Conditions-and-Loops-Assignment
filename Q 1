@@ -1,0 +1,75 @@
+1. What are conditional statements? Explain with syntax and examples?
+Solutions---
+
+
+
+Conditional Statements in JavaScript
+
+JavaScript provides several types of conditional statements, like if, if-else, if-else if, and switch statements.
+ 1. If Statement-
+                  It executes a block of code if the condition is true.
+
+-------------------------------------
+Example-
+
+     let age = 18;
+
+      if (age >= 18) {
+      console.log("You are an adult.");
+       }
+----------------------------------------
+
+2. If-Else Statement
+
+If-Else Statement allows you to execute one block of code if the condition is true and another block if it is false.
+-----------------------------------------
+Example-
+        let age = 16;
+
+        if (age >= 18) {
+        console.log("You are an adult.");
+         } else {
+        console.log("You are a minor.");
+          }
+-------------------------------------------
+
+3. If-Else If Statement
+
+If-Else If Statement allows checks multiple conditions in sequence. We can set as many else if blocks as needed.
+--------------------------------------------
+Example-
+        let score = 85;
+
+        if (score >= 90) {
+        console.log("Grade: A");
+        } else if (score >= 80) {
+         console.log("Grade: B");
+         } else if (score >= 70) {
+        console.log("Grade: C");
+         } else {
+        console.log("Grade: D or below");
+         }
+-------------------------------------------
+
+4. Switch Statement
+
+This statement is a more convenient way to handle multiple conditions based on the value of a variable.
+------------------------------------------
+Example-
+        let fruit = "apple";
+
+         switch (fruit) {
+          case "banana":
+           console.log("Banana is yellow.");
+          break;
+          case "apple":
+           console.log("Apple is red.");
+          break;
+          case "orange":
+           console.log("Orange is orange.");
+          break;
+          default:
+           console.log("Unknown fruit.");
+           }
+-------------------------------------
+
